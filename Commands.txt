@@ -1,0 +1,1 @@
+lm_eval --model hf --model_args pretrained=distilgpt2 --tasks lm_eval/tasks/NLP_JMU --device cpu --batch_size 1 --limit 50
