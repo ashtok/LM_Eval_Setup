@@ -28,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lm-evaluation-harness" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -95,7 +95,7 @@
       <workItem from="1752321326254" duration="24000" />
       <workItem from="1752323489103" duration="114000" />
       <workItem from="1752333917987" duration="968000" />
-      <workItem from="1752355426865" duration="298000" />
+      <workItem from="1752355426865" duration="2034000" />
     </task>
     <servers />
   </component>
