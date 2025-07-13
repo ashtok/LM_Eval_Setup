@@ -1,7 +1,7 @@
-task: meronymy
+task: meronymy_high
 dataset_path: json
 dataset_kwargs:
-  data_files: "./lm_eval/tasks/NLP_JMU/meronymy_questions_monolingual_en.json"
+  data_files: "./lm_eval/tasks/NLP_JMU/meronymy_questions_en_to_high.json"
 dataset_name: null
 output_type: multiple_choice
 training_split: null
@@ -22,3 +22,4 @@ metric_list:
 metadata:
   version: 1.0
   description: "Meronymy evaluation task with multilingual options"
+  alias: "meronymy_high"

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3cfba28-b213-4fe7-a5db-87a1bcd51773" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Masters In Germany/Computer Science/Semester 4/Practical_NLP/Babelnet_Client&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Masters In Germany/Computer Science/Semester 4/LM_Eval_Setup/lm-evaluation-harness/lm_eval/tasks/NLP_JMU&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,11 +53,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Masters In Germany\Computer Science\Semester 4\LM_Eval_Setup\lm-evaluation-harness\lm_eval\tasks\NLP_JMU" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval\lm-evaluation-harness\lm_eval\tasks\jmu_hypernymy" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval\Analysis" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Masters In Germany\Computer Science\Semester 4\LM_Eval_Setup\lm-evaluation-harness\lm_eval\tasks\NLP_JMU\Old_Files" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval\Analysis" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval\lm-evaluation-harness\lm_eval\tasks\jmu_hypernymy" />
       <recent name="D:\Masters In Germany\Computer Science\Semester 4\Practical_NLP\LM_Eval\lm-evaluation-harness\lm_eval\tasks\my_custom_hypernymy" />
@@ -90,6 +93,8 @@
       <workItem from="1752355426865" duration="5417000" />
       <workItem from="1752401757142" duration="606000" />
       <workItem from="1752403195838" duration="2397000" />
+      <workItem from="1752407706078" duration="3765000" />
+      <workItem from="1752411528751" duration="2380000" />
     </task>
     <servers />
   </component>
