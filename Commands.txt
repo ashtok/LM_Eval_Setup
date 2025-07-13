@@ -35,18 +35,19 @@ lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --
 
 Google mT5-large
 
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 
 
-meta-llama/Meta-Llama-3-8B
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=meta-llama/Meta-Llama-3-8B --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+meta-llama/Llama-3.1-8B-Instruct
+
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
