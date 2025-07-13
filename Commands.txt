@@ -1,7 +1,10 @@
 ====Next tasks to run====
-lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono,analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 
-lm_eval --model hf --model_args pretrained=google/mt5-large --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono,meronymy_high,meronymy_low,meronymy_medium,meronymy_mono,analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+
 
 Google Gemma-3-1b-it
 
@@ -35,7 +38,7 @@ lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --
 
 Google mT5-large
 
-lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 lm_eval --model hf --model_args pretrained=google/mt5-large,use_safetensors=True --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
