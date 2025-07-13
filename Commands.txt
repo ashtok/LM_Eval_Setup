@@ -1,1 +1,14 @@
+Login to Hugging Face
+
+huggingface-cli login
+
+
+
+
 lm_eval --model hf --model_args pretrained=distilgpt2 --tasks lm_eval/tasks/NLP_JMU --device cpu --batch_size 1 --limit 50
+
+
+lm_eval --model hf --model_args pretrained=google/gemma-2b --tasks lm_eval/tasks/NLP_JMU --device cpu --batch_size 1 --limit 100 --output_path ./results/
+
+
+
