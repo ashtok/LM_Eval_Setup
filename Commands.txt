@@ -2,8 +2,6 @@
 
 lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks analogies_all,hypernymy_all,meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 4 --output_path ./results/
 
-lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks msi_hr_custom_task,msi_lr_custom_task,msi_md_custom_task --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-
 Models to Consider:
 
 
@@ -12,9 +10,9 @@ Google Gemma-3-1b-it
 Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 4 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=google/gemma-3-1b-it --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 4 --output_path ./results/
 
 
 Qwen3-8B
@@ -32,9 +30,9 @@ Mistral-7B-Instruct-v0.3
 Done - lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks analogies_high,analogies_low,analogies_medium,analogies_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 Done - lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks hypernymy_high,hypernymy_low,hypernymy_medium,hypernymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 Done - lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks meronymy_high,meronymy_low,meronymy_medium,meronymy_mono --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
-lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done -lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks analogies_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks hypernymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+Done - lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
 
 
 Google mT5-large
