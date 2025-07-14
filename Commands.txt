@@ -2,6 +2,8 @@
 
 lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-Instruct-v0.3 --tasks analogies_all,hypernymy_all,meronymy_all --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 4 --output_path ./results/
 
+lm_eval --model hf --model_args pretrained=meta-llama/Llama-3.1-8B-Instruct --tasks msi_hr_custom_task,msi_lr_custom_task,msi_md_custom_task --include_path ./lm_eval/tasks/NLP_JMU --device cuda --batch_size 2 --output_path ./results/
+
 Models to Consider:
 
 
