@@ -1,7 +1,7 @@
-task: analogies_low
+task: gloss_low
 dataset_path: json
 dataset_kwargs:
-  data_files: "./lm_eval/tasks/NLP_JMU/semantic_analogy_questions_en_to_low.json"
+  data_files: "./lm_eval/tasks/NLP_JMU/gloss_questions_en_to_low.json"
 dataset_name: null
 output_type: multiple_choice
 training_split: null
@@ -21,5 +21,5 @@ metric_list:
     higher_is_better: true
 metadata:
   version: 1.0
-  description: "Analogies evaluation task with multilingual options"
-  alias: "analogies_low"
+  description: "Description (Gloss) evaluation task with multilingual options"
+  alias: "gloss_low"
