@@ -26,7 +26,7 @@ lm-evaluation-harness/lm_eval/tasks/NLP_JMU/
 │
 ├── Gloss/
 │   ├── gloss_all.yaml
-│   ├── gloss_{high,low,medium,mono}.yaml
+│   ├── gloss_{high,low,medium, mono}.yaml
 │   ├── gloss_questions_all.json
 │   ├── gloss_questions_en_to_{high,low,medium}.json
 │   └── gloss_questions_monolingual_en.json
